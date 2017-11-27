@@ -1,0 +1,54 @@
+﻿Compilación iniciada a las 11/24/2016 11:20:51 p. m..
+     1>Proyecto "C:\Users\Efrain Perez\Desktop\FINAL OAC\CompiladorASM\NotePadDemo.vcxproj" en el nodo 2 (Build destinos).
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\x86_amd64\CL.exe /c /I. /IC:\Qt\5.6\msvc2013_64\include /IC:\Qt\5.6\msvc2013_64\include\QtPrintSupport /IC:\Qt\5.6\msvc2013_64\include\QtWidgets /IC:\Qt\5.6\msvc2013_64\include\QtGui /IC:\Qt\5.6\msvc2013_64\include\QtANGLE /IC:\Qt\5.6\msvc2013_64\include\QtCore /Idebug /I. /I"C:\Qt\5.6\msvc2013_64\mkspecs\win32-msvc2013" /I.\GeneratedFiles /Zi /nologo /W3 /WX- /Od /D _WINDOWS /D UNICODE /D WIN32 /D WIN64 /D QT_PRINTSUPPORT_LIB /D QT_WIDGETS_LIB /D QT_GUI_LIB /D QT_CORE_LIB /Gm- /EHsc /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /GR /Fo"x64\Debug\\" /Fd"x64\Debug\vc120.pdb" /Gd /TP /errorReport:prompt -w34100 -w34189 -w44996 ASMCompilador\LI.cpp ASMCompilador\LUI.cpp
+         LI.cpp
+     1>ASMCompilador\LI.cpp(17): warning C4100: 'orig' : parámetro formal sin referencia
+     1>ASMCompilador\LI.cpp(55): warning C4100: 'p3' : parámetro formal sin referencia
+         LUI.cpp
+     1>ASMCompilador\LUI.cpp(16): warning C4100: 'orig' : parámetro formal sin referencia
+         Generando código...
+     1>c:\users\efrain perez\desktop\final oac\compiladorasm\asmcompilador\lui.cpp(73): warning C4715: 'LUI::buildInstruccion' : no todas las rutas de acceso de control devuelven un valor
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\x86_amd64\link.exe /ERRORREPORT:PROMPT /OUT:"debug\\NotePadDemo.exe" /NOLOGO /LIBPATH:C:\Qt\5.6\msvc2013_64\lib /LIBPATH:C:\utils\my_sql\my_sql\lib /LIBPATH:C:\utils\postgresql\pgsql\lib /LIBPATH:C:\Qt\5.6\msvc2013_64\lib C:\Qt\5.6\msvc2013_64\lib\qtmaind.lib shell32.lib C:\Qt\5.6\msvc2013_64\lib\Qt5PrintSupportd.lib C:\Qt\5.6\msvc2013_64\lib\Qt5Widgetsd.lib C:\Qt\5.6\msvc2013_64\lib\Qt5Guid.lib C:\Qt\5.6\msvc2013_64\lib\Qt5Cored.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"debug\NotePadDemo.pdb" /SUBSYSTEM:WINDOWS /TLBID:1 /DYNAMICBASE /NXCOMPAT /MACHINE:X64 "/MANIFESTDEPENDENCY:type='win32' name='Microsoft.Windows.Common-Controls' version='6.0.0.0' publicKeyToken='6595b64144ccf1df' language='*' processorArchitecture='*'" x64\Debug\ADD.obj
+         x64\Debug\AND.obj
+         x64\Debug\BRA.obj
+         x64\Debug\CMP.obj
+         x64\Debug\Compilable.obj
+         x64\Debug\Compilador.obj
+         x64\Debug\Error.obj
+         x64\Debug\Etiqueta.obj
+         x64\Debug\EtiquetaP.obj
+         x64\Debug\Instruccion.obj
+         x64\Debug\InstruccionFactory.obj
+         x64\Debug\JMP.obj
+         x64\Debug\JR.obj
+         x64\Debug\LB.obj
+         x64\Debug\LI.obj
+         x64\Debug\LUI.obj
+         x64\Debug\LabelManager.obj
+         x64\Debug\MOV.obj
+         x64\Debug\Numero.obj
+         x64\Debug\OR.obj
+         x64\Debug\ParameterFactory.obj
+         x64\Debug\Parametro.obj
+         x64\Debug\Registro.obj
+         x64\Debug\SB.obj
+         x64\Debug\SL.obj
+         x64\Debug\SLT.obj
+         x64\Debug\SPC.obj
+         x64\Debug\SUB.obj
+         x64\Debug\Util.obj
+         x64\Debug\XOR.obj
+         x64\Debug\moc_errores_forms.obj
+         x64\Debug\moc_mainwindow.obj
+         x64\Debug\errores_forms.obj
+         x64\Debug\qrc_resource.obj
+         x64\Debug\main.obj
+         x64\Debug\mainwindow.obj
+         NotePadDemo.vcxproj -> C:\Users\Efrain Perez\Desktop\FINAL OAC\CompiladorASM\debug\NotePadDemo.exe
+     1>Compilación del proyecto terminada "C:\Users\Efrain Perez\Desktop\FINAL OAC\CompiladorASM\NotePadDemo.vcxproj" (Build destinos).
+
+Compilación correcta.
+
+Tiempo transcurrido 00:00:01.57
